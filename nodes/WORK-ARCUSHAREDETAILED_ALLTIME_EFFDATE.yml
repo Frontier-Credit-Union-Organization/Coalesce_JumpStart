@@ -1,0 +1,4928 @@
+fileVersion: 1
+id: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+name: ARCUSHAREDETAILED_ALLTIME_EFFDATE
+operation:
+  config:
+    insertStrategy: UNION
+    selectDistinct: false
+  database: ""
+  deployEnabled: true
+  description: We are using this to add the effective date to the table before creating the final ARCUSHAREDETAILED ALLTIME VIEW.
+  isMultisource: false
+  locationName: WORK
+  materializationType: view
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 015f802f-735d-4bdc-b573-f57466c91109
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: ACCOUNTBRANCH
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8bb8041c-e836-41f0-8ff9-44f288af7a30
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ef2a5d18-74e6-4cbd-8c02-c88f9d99461b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: ACCOUNTBRANCHEXTRAADDRESS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 28117dfb-6bb3-49c6-9452-e46154295ce8
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6bb65792-dce1-40ca-9ba0-33728434ebf2
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: ACCOUNTBRANCHFULLDESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4c08a2d6-c588-43a9-8ee9-9f57ebdf7a4b
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6b338f4f-4f96-4658-ae7b-fa5edbfa09cb
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: ACCOUNTBRANCHNAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 20800fcc-e5b5-4ba9-82be-1c87e45e84b6
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f078616f-c9fd-45e7-bf89-efebfc6b1286
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(10,0)
+        description: ""
+        name: ACCOUNTCREDITSCORE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fe7a9bee-a862-4fd1-82fb-1c7125ee2f12
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 565fca43-fde5-4957-bb53-18d507fd7998
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: ACCOUNTNUMBER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e798ecef-73fe-4277-be23-0aceb98c051b
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fbd9c5f6-784c-42b4-84f9-69487895b04e
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: ACCOUNTSTATUS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 50f82a6a-d0cc-4038-9722-1acde371f74e
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 03ca2131-af47-42b1-880c-0dae5d90b0bd
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: ACCOUNTTYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 28c79802-432d-4a3f-bac8-344e718d157f
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9562f02c-7fdf-4fec-bd6e-b865c9f3b035
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: ACCOUNTTYPEDESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3af1e576-1162-46cf-bd8f-952972a4e757
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ef5bcc85-3605-400e-8ec6-711c329afc95
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: ACCOUNTTYPEFULLDESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f20907b8-ba63-45d5-a86c-b8926107a772
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1d7f3da9-a96f-4b40-a333-a95ba352131b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: FULLDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a1986ebd-445f-46a7-b646-fc1a6b8849fc
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6d6c6e7f-4ffa-46fb-a2e2-42ab60075463
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: ISLASTDAYOFMONTH
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d5ef32a4-81c1-4105-8f57-bb27066360d6
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: db139bfa-22ca-480d-bc36-719864732022
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: ISLASTDAYOFQUARTER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 185cd486-4116-462a-a417-6169d605c768
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0bc787a6-ff58-4c7f-874c-54eaab356398
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: ISLASTDAYOFYEAR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 11cf498e-b999-4298-8538-d2dcf5b4f859
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5c9ec343-b447-433f-b3f7-2a7640e63504
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: MONTHBEGINDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fa3ae66e-49f8-4d05-88c4-ef1472354dcd
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4245d3e5-95cd-45a7-ae39-d32f631de451
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: MONTHENDDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 51ee2559-4da0-4ed8-95a1-9f393c8196ea
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a75dba1d-ddca-4a9b-98fc-d2af237ba4e8
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(10,0)
+        description: ""
+        name: MONTHNUMOFYEAR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 38b00b2f-e56f-4e31-8bd3-0008d7399148
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f2004731-eea1-4642-9545-1bd7b60c1467
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: PRIORDAYDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: cfd84075-dcc4-4151-ac80-43899e7331bc
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 130d5511-47c7-4b4b-b2da-f724317bc33c
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: PRIORMONTHENDDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a5893ead-d44a-4480-a2bc-ddb24cbdf82c
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b2c1fded-7bc5-4564-ac2e-808517b175fc
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: PRIORQTRENDDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9e93502e-b2be-4a87-b8c3-db660cab5223
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 064852c5-67c0-4d22-a91e-2ccc9fe4e7f6
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: PRIORYEARENDDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 00ed0ae2-06aa-4038-8277-743c019a63ad
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6b294041-4556-4e48-84cf-44d9544aa26f
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(10,0)
+        description: ""
+        name: PROCESSDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d11b98a9-a12e-4a6c-9492-96b683d1b949
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f45adc6e-ac57-4b57-a1c9-329e9bbe233c
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: DATE
+        description: ""
+        name: PROCESSDATESHORT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fc4464e6-774b-47c9-a5ad-6b68b43d8eb3
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b2844863-d25c-4746-825c-382732d06ab0
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: QUARTERBEGINDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5ba3dffe-697a-455f-919d-2a12422e69ca
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d8f69341-76ef-4923-aa29-953feee6fd00
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: QUARTERENDDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b619c42c-8bb2-42d7-a8f5-e0edb212ff5f
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 022a1702-05df-4cd1-963d-cf805c8a0b13
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(10,0)
+        description: ""
+        name: QUARTERNUMOFYEAR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a1c70fae-396c-42d1-8ba5-6cbf84c6146d
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e829c44a-6a52-4818-8315-bf96ac785fbf
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(10,0)
+        description: ""
+        name: QUARTERNUMOVERALL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3d5fe4df-14a2-4ef4-88aa-052d9e4fdb7f
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 208f9482-0da5-44a7-a6bb-f2f51b1aaa3f
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: REPORTPERIOD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 965b0648-b95c-43d6-8a93-aa3d11ac35a0
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 62243eff-8808-4d0a-893d-9bd0b0e495e9
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREACTIVITYDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9887cc1f-5c2c-44e1-a0be-98b598bab9a3
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2e6cfcfe-474e-45f6-8625-8337530baf40
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREALTERNATEADDRESS1
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 92ad5f59-01a1-40cb-b770-a52f286879d3
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fa447cf7-5719-46f3-ac1c-d3eda81adb89
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREALTERNATEADDRESS2
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0bb38357-c55d-4ce4-a287-d25eea226cc6
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9f355658-efbc-4cfe-a3f0-f1bab170be9f
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREALTERNATEADDRESS3
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 692546c7-df8e-4c82-9433-214c54c2fce3
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d285c866-7580-4584-bbfc-f6be00d22158
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREALTERNATEADDRESS4
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c4cc8c5e-4117-4705-8ce1-7c4172bacaa7
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: faabb624-fbbe-4110-b56b-44f30c975b94
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREALTERNATEADDRESS5
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3c12bb34-7037-4adc-8e0e-2a5baad9315a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6a71526e-2ec6-4247-92fc-66e1ee8877d8
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREALTERNATEADDRESS6
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 04937d63-70f3-460b-a16a-fa906093b2f2
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d48673d4-6da2-4e2d-85ba-06cbab71be24
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(10,0)
+        description: ""
+        name: SHAREALTERNATENAMELOCATOR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 877b991d-4542-4ff3-a9c3-e0f4ef78ae28
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 22647cf1-0e70-4c60-bb4c-7165b54a32ab
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(10,0)
+        description: ""
+        name: SHAREALTERNATENAMETYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a11fb3bf-7fa7-4206-a4f2-61b6e64964cf
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: cddd5d7a-8250-43e6-a11e-04fc8140d557
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREALTERNATEPHONE1
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e85f5884-cc4c-469a-8e76-7bf0043dda7b
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 37cddd60-7a04-41d1-992c-8b7be5492a25
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREALTERNATEPHONE2
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 93ed87ff-633c-460b-892b-b154847c9c41
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 09ed3ce9-614a-4f99-a852-4329eb930276
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREALTERNATEPHONE3
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 73dfaadf-7eed-4ef1-92f8-b74f3f893c67
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4dbca381-6125-473e-9243-e256348fb2e1
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREAMORTIZATIONSCHD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b34f2a60-eb3f-4357-a20f-e5d30d32053a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 83a43a72-d6e9-4938-bd51-78c612ebb45e
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREAMORTIZATIONSCHDTYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2f10484a-edb5-4131-8574-1d29ebbd1600
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d5841a00-94bd-4712-aed0-7a20995f3055
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREANALYSISGROUPPRIMARYACCT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5e06b948-f7e7-4e44-9e0b-c51db00b2709
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a95cf121-ee9f-473f-9bac-432a671306b6
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREANALYSISGROUPPRIMARYID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2f05e91c-5dd2-4c3a-8b6c-6c944116dd1a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 26fb727c-fda7-4104-a574-d1449ec0dc21
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREANALYSISPMTACCT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0cdc28e8-a9fb-4beb-9af3-a9a9dc31872e
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a5f7fbc1-a238-44e9-8f5e-dab145efc9af
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREANALYSISPMTIDTYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9b96febd-d653-4260-ac34-4b32505d5f3b
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 958a9c47-e5d7-4fe9-b01e-bd08f7628525
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREANALYSISPMTSLID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8b7173df-cad4-4e62-8102-297cc245d3ec
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4816715e-eca6-46aa-8e32-45cc96c2a1ff
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(6,3)
+        description: ""
+        name: SHAREAPYRATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ada5f392-c235-4eaf-bdc8-fb827143a697
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7a552f22-8385-418a-8ce5-6825b55e5fd0
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREAVAILABLEBALANCE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c848cb02-b1b1-4b01-bcbb-ad7a7c9ee077
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3962944d-ce73-4e93-8c6b-567ff93e8990
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREBALANCE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 70569ebf-8335-41f6-869c-a01719f1670e
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 46fac995-3e75-4f0a-a780-2fa2dd66ba9b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREBONDINTLASTYEAR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 57a27304-c856-405d-93ea-1b4f63c1522b
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4c54fa31-43a1-497c-9e88-39590b2fc576
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREBONDINTYTD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b93daa8a-f5fa-443e-a9fa-e89d35be5041
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1868bf1f-243e-4796-9d38-c08e552d7560
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREBRANCH
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 38561d1f-5b49-4048-bc2c-df4d360af3be
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5bb2ca35-f670-4f55-8044-23d33acbc61b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREBRANCHFULLDESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b8858535-aa1a-4bf6-a51f-767d9400f78f
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b6cca50e-7201-4f4f-b9f1-7291ac714274
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREBRANCHNAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c6540a92-f5b2-472e-a8ee-e827bccfb5ee
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 637d6f5b-0751-4f88-a92b-ece25c14d9f5
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREBRANCHNAMEEXTRAADDRESS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0d2d50b2-2e77-4739-bf6d-1fc066a5d008
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 76015b05-6cdc-4e08-8382-827bac17850b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREBUMPEFFECTIVEDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 997e47f1-dac0-471e-95b3-9048e0795cb8
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 62e9b90a-ab97-4504-980f-624734f6254b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREBUMPEXPIRATIONDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: aa589486-f277-4315-bd69-f527410b16dc
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: dbeae270-0c18-4dd4-bc3a-a7920b4cbb2d
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(6,3)
+        description: ""
+        name: SHAREBUMPRATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 260eeda8-b999-44bf-a29d-f012f2ecc1a9
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 536e71b3-a8a5-4551-ac4f-8b9e0ea788b8
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARECALLITEMSCHD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7c5c7344-0426-4582-a056-13a5c46fca20
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fff8f616-ec86-4395-a4a9-c74cf8b7663f
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARECALLITEMSCHDTYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ac315807-62f2-450b-8510-08bf687a3801
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4ea8eaf7-a0a2-4832-a45e-cf0b34bb8a18
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHARECAPPEDFEESAMOUNTCAP
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 14efccea-062f-48f9-a9fb-d01bf33a92c8
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5983ee00-ca10-4ef9-898b-2728b542ada5
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHARECAPPEDFEESAMTPERIOD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 15ab362d-8658-4dce-b7fc-54801ddecbc2
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 562a345a-3b2f-4fa3-ab2a-34affb817ce5
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARECAPPEDFEESCNTPERIOD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b34b1ce4-126a-4f24-b675-529c7602cfe4
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 104df737-30a7-4e90-a79f-f87217434ab9
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARECAPPEDFEESCOUNTCAP
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ef35be02-818e-45f9-8f83-3a1b67495eb4
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9421e83c-895a-482e-8a24-2fbe798473d6
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHARECDDIVACCRLASTYR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 53b78b27-8f3b-447d-8223-a7a1f5c536c7
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2697d730-6736-41b1-84b4-f8136d24a7c1
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHARECDDIVACCRYTD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 048c3105-8609-44a2-b7f3-208999528103
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ab723c52-c816-4ec2-b70a-d4d82688bcd9
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHARECERTIFICATENUMBER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 037bd2b4-7a84-4b84-8639-11c8f6db4d13
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0710100b-bb6f-4625-9583-db2e4957d510
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARECERTREMAININGTERMMONTHS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 452e0046-2b86-47d1-91b8-6d4797b8940f
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d230c3dc-603c-473c-85b8-9914a9890c48
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHARECHARGEOFFAMOUNT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e6bae939-1e3b-4708-b085-d3ef3f74a386
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f5bb31e5-a526-4fcf-8380-a4f21398a399
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHARECHARGEOFFDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 37bc02a5-7e1c-4902-9652-fb31a9e46670
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 834094e4-fd71-45bb-a811-226e9b397c8b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARECHARGEOFFTYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f1f8b92b-be0f-4544-8387-d983941cf7bf
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7418e24d-d716-4c6d-ac75-968db22f27d5
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHARECHECKDIGITS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 03113700-4dd8-4b1e-8734-371f753767ac
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f64c6991-3a21-4698-b655-f2204e107c8b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHARECLOSEDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 17516665-8669-4288-9a00-4d583bb566d5
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 05ad111f-0e15-4583-a34d-4a6009301ee5
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARECODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2bc48e77-ba86-4369-a7f7-74902de2917a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: cea4c0a2-c31e-4d8e-b08d-d2427b34c90b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHARECODEDESC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5705cdda-c0c4-4c82-a845-8ace333395b4
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b4e2ec0b-6638-4a48-8866-7673b70812c1
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARECORPORATEUSERTRANSFERCODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 27e3da7f-c190-424f-887e-381955d0bd42
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c1d89b3a-aabb-4685-b591-64f66a680982
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARECOURTESYPAYLASTYEAR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 59819bb9-3a04-445a-88a2-bf6274a9afd2
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 26f29c78-45e7-4637-8d0f-d4602c22f464
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARECOURTESYPAYMONTHTODATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: cc5f9d84-db03-4f1a-81d2-a9c56b2eb8df
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4d7bc00b-7fd6-4033-b0c9-b7098f5fc351
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARECOURTESYPAYYTD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6f3f53b7-652a-4cdb-997b-f6ffd89dc57b
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 44358aa4-3d43-407c-aaba-376b0139422f
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARECREATEDATBRANCH
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0a4a11cd-e22d-4fe2-934a-23e7f781a97f
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b49e9ae0-6622-46ac-84a3-02660ba7e2ea
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHARECREATEDATBRANCHFULLDESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 47324841-a8cd-4139-8472-8cfb005ccde6
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 69a8c910-e82e-402e-8c55-a231f718925c
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHARECREATEDATBRANCHNAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8f6a90d6-3df2-4b2f-9c61-8013babaeae7
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 25a01055-6172-4f43-accd-57fc6c1b6269
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHARECREATEDATBRANCHNAMEEXTRAADDRESS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5968777b-440b-41cb-a2c7-16e9bad82162
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a1c98da4-b39e-4951-b79f-615cbfe1abf3
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARECREATEDBYUSER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4469c1cb-fabf-4581-9395-0b4e46eb55e6
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: afbf4de2-3df6-4129-9c26-5f97b6f00d5c
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHARECREATEDBYUSERNAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ad42e623-eabf-4f9e-8e16-ae17bb8591f4
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6e274a17-8e2d-4dda-93d4-fe26c970d870
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHARECREATEDBYUSERNAMEFULLDESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ac2b0530-95f3-46c7-a1ed-065b97a830e6
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 52d3ae1c-7d70-4c59-b718-63b12d185d59
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHARECREDITREPORTCOMMENT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b4887d65-d30b-480e-9cac-0df76d1b563d
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ce3de8ef-16f0-4628-aec3-afc276a031cb
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHARECREDITREPORTCOMPLIANCE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f0ac87f4-ff93-4102-b5d9-0183dd5fdd0a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 65f11cc8-c6d0-4d7a-b922-434ce3a8ff8d
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHARECREDITREPORTCONSUMERINFO
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1ca12890-ce92-43cd-bb7f-fe55edf4c839
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4d5d707c-71f2-407d-aab3-88df6b59163c
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHARECREDITREPORTCONSUMERINFODATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: edab3b63-1aec-4bb4-b831-1609d4788712
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6ddcea72-cb73-441e-b8c8-f7bdcbec6920
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARECREDITREPORTINGCODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8ce197dc-6c44-44a3-95c6-f222d89fb39c
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 915ffb2e-3bd6-4515-9fb1-318c6aefef5a
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARECREDITREPORTLASTSTATUS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 42111a9b-2008-4a0f-b45c-cd7e6b461fa6
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b7db918f-5a7f-4eda-9ef7-8abedc91f7c4
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHARECREDITREPORTNUMBER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ab074a73-9c8d-460a-ad7d-897f1bd60634
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c83eb4b1-fa66-47e2-b7f8-84a44fdacad0
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHARECREDITREPORTOCCURDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 67890dc9-619b-42c1-a311-fdf593c91261
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 362395b8-6113-497b-90d0-6918af74d054
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHARECURRDIVPAYABLE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 77b9e06a-2bba-43fb-8f8c-4f1971bffdde
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 170b2ae1-fdfb-4d14-8f9c-83e7063a897e
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHARECURRMONTHPAIDDIV
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2e11c01a-da73-4916-bd56-62ce8bf50464
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 11fa6abe-b9a0-4f81-9665-9b2c2ac952b9
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARECUTOTALSUSECODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8ac258c9-7073-49bc-b7be-b32483fb4988
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c8f214a3-6a95-487c-a040-13d2e93e2b0a
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREDESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: edd27410-1c3a-4f0e-b0bc-6647065b2f7d
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b804f2b0-a1b0-4cf4-8f96-d2064597fdfd
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREDIVACCRUAL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 20d87deb-36c8-4ac2-ac12-e2209f43d5c2
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a1332b2d-0f91-4722-ae8a-ec38a6673b14
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREDIVACCRUALDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c0df4eac-94e7-45ce-85e4-4be784f90c7e
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8a611ed6-393d-4db7-a63c-87ec2089d618
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREDIVDISBUPDTACTVTYD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fa9b46fd-1541-431b-bed3-93beebfd1362
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 631601c1-7242-4104-83a6-8c880ec0c88d
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREDIVFROMOPEN
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 91546911-9726-4e30-b475-5b5c1241fac3
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0f9749dd-42f7-4e01-a5f9-e74bb50d89de
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(12,6)
+        description: ""
+        name: SHAREDIVIDENDRATEMARGIN
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 47ed7cc0-d4b0-4316-9ed1-977ca1f9db55
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 728532c8-c491-4ba9-ae9a-89ba8b81d5b3
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREDIVIDENDRATEMARGINSIGN
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ff77947e-9dca-40d9-83ac-d175f7ab7ebe
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 12700e37-ed89-428b-ab96-28be5f006626
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(12,6)
+        description: ""
+        name: SHAREDIVIDENDRATEMAX
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7e694bad-631f-448c-b324-245c7d5215e5
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 869178e3-5d6c-45d2-b17f-ea3086433777
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(12,6)
+        description: ""
+        name: SHAREDIVIDENDRATEMIN
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0ceee389-5877-453e-9eaa-013aed807376
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 325722ea-3e07-4811-aa60-8f5b5bbd62fb
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREDIVIDENDRATEPERIODDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 78a67a09-db21-4681-9842-e67553dbee76
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c2f3c136-cfd4-4484-9128-082ba9ce4a82
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREDIVIDENDRATEPERIODFREQ
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d1ce6132-b586-455c-9edc-82651791fa9a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: cdfedb47-9ffd-40e0-a254-639ff2c31ed3
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREDIVLASTYEAR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5fde6aa8-551f-469b-8e71-a9a31b433da5
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 425f987d-60fa-4958-8146-ebf00f6a00d8
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREDIVPERIODBALDAYS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 80c35b8d-c342-4425-b306-343a28ec9632
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2e9fc143-9afa-49b1-9981-32a1dab7a5d0
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREDIVPERIODSTART
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 509d0b8f-1182-4689-8898-50f40ae8bf8b
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b71a490a-fcca-49f1-82da-458c2d46526f
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREDIVPOSTCODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 24e35d2a-807d-46f6-a104-bbb10232e972
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9e5716e3-9cc8-4d64-bfe8-488c611d6045
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREDIVPOSTCODEDESC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a1ce2549-232c-49a6-8ac2-b9fcc3f1946b
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b7566770-0ef4-4dcb-88d2-b0cba0083e52
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(6,3)
+        description: ""
+        name: SHAREDIVRATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: bfb3688f-b1b2-4af7-a84e-2a26f8b114f7
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c02c359e-dd4b-40b1-b9cc-bbea82a5cb45
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREDIVTYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c3404edc-f978-448a-a917-d42eab0114c1
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3967a1f1-dd52-4f01-8fc8-a9f04b5a2b7d
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREDIVYTD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 13b04e57-5950-491e-8285-b3a7cfb11a35
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 849f2533-b93a-4a5e-92bf-3e82f2324d26
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREESCROWEDLOANID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 03647bbe-ea1e-47cb-bc32-6ddf37e352cd
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7fd79a68-d064-4baf-a930-d400b2b64201
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREEXTACHXFRDAILYLIMITIN
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 06f97734-1214-434a-90cd-38c7c8065ace
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 567310f7-a67f-4e70-9e1b-6869e1cf2499
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREEXTACHXFRDAILYLIMITOUT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 65e0df1d-3969-45f8-827e-68f46cc8f425
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c85d4951-375c-4e8e-9bf7-9b3c54419475
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREFEECOUNT1
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0424de54-3820-4966-b7b8-26b57a6cb395
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ef1810a1-6c36-4696-a58a-3b0acba24a83
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREFEECOUNT2
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6dd64ff1-6e30-4fba-a8b4-cec1f30ee292
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d29f9bce-5dff-4573-970d-fe43c307e4e1
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREFEECOUNT3
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e570b510-96e0-4fe2-bd49-ae7425ae882c
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b32edd82-dee9-4638-acd9-8f4f8358201e
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREFEECOUNT4
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9c20d95e-1b4c-43ee-a11d-3e8f6fa683f7
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0bebc2d1-3b06-44a6-bb73-539e4d3a0364
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 019a56a1-931c-4c84-a4da-71adff3b2e5a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: db40b14b-da7a-4cbd-9dc8-6311fdc23130
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREINSURANCEBALANCEAGE1
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c0ca0a4a-16dc-432b-99a5-45dac4c57b5d
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9cbae4b2-d4fe-465b-87a9-a654c1d97b5f
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREINSURANCEBALANCEAGE2
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6705444e-269b-4f84-b77a-4f924a6fbf9e
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 84aa1aa3-fbc2-4725-ab08-2097e6d3e40d
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREINSURANCEBALANCEAGE3
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ac8cff78-c174-458c-948b-37867a540ee2
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1fb58059-175f-4226-8869-bc73b7b777f5
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREINSURANCEBALANCEAGE4
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9dada223-12f6-4d0c-825f-2cb62b4e3948
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 60e6b501-f97f-48fe-b831-a23fa83298c9
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREINSURANCEMAXIMUM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2b54b442-687b-4e67-894e-39dd625bffb5
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8373135b-db95-41be-9b9d-1b7120689296
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREINSURANCETYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 59c9c3d4-aefd-43b9-be23-01c7a9f9d608
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1bcf80ce-78ac-4d05-9352-176ebd1ba47b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREINSURANCETYPEDESC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7b3c01b0-44e3-49cc-9d17-f8d5c4472be7
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 689791a7-69af-4fd4-8190-39668d3c2c87
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREIRSCODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 42c554c6-03a4-4877-8904-4db802bb65e0
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 566c7fea-bec2-4097-ad1f-846d9e4d56a3
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREIRSCODEDESC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: cb0e85ef-85b7-4db8-af1d-613b89ef5d20
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 061b3b99-3fdf-4e38-8617-861684ea33c3
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREIRSPLAN
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 55b25b0e-346f-4110-9805-01496c4d0d5c
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 055b1a7a-75dc-41aa-ba70-0b596ed452c7
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHARELASTACCRUALUPDATEDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7366f02f-9d6e-4b3b-a112-2d3a129ad4ec
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0669254f-ac4e-449e-bcde-7239e3b3308b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHARELASTCRREPORTDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 51e9aa25-19f2-4e89-a794-347ae591699f
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ad5a7f47-a3ac-4061-8c82-ea0e1664f136
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHARELASTDIRECTDEPAMT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 57f56fcf-6fb6-48cd-93d2-26b3539c5f93
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 25f7bebd-4bb1-4eee-bdeb-20d6fb06f7d2
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHARELASTDIRECTDEPDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 763288bd-ad40-4df2-99e8-adcb033440e3
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3d5fd9dc-a4ac-42cc-b7d2-ddf0b9bc458d
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHARELASTDIVAMOUNT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5849bfc9-6406-4516-9d6f-0635bf534ca5
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6db71afd-81e1-4993-9390-48d24fb42fad
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHARELASTDIVDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b6291704-0fe5-4398-99c6-e86afc667cac
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 61a34711-16a6-4ae4-bb2d-0190a7ce89c7
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHARELASTFMDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d0a53e69-2e1a-4778-bb71-aa12d3d857c3
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: db085186-21ba-4de8-9f59-1ce0981e3b7b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHARELASTPURGEDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: eb31a27c-4421-477c-af14-27558990e35d
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 82811ed7-396d-44b9-b142-671aa625a83b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHARELASTTRANDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4be01b73-2a2e-4b00-8f13-574d7e2e7b1c
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 401a94ff-1340-498d-8015-b0a3b4e839e0
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHARELEDGERACCRUAL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9df95901-2c1b-4427-83c1-aaa7f4188ce0
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7d754b55-8236-4beb-9353-b38c56ac467b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHARELEDGERACCRUALDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 34516b89-f6f8-4e14-bde6-ef9d3e8c39d4
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 376c7e1a-9574-4cb7-9953-69bf2d45c8ce
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHARELOANPAYMENTHOLD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4067ba44-0765-4278-a56d-d7609e1706fe
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8de6633f-c774-4d40-991d-d7ba19678403
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREMATURITYDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e889d488-1330-4c57-b87c-ed19bc550848
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fca0c415-fb65-4d18-b5b1-7933092860e6
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREMATURITYPOSTCODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 081d15f4-7b06-4eb3-a66d-16a5c6e7513e
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 375fea58-19e4-4637-b174-ebdf39e666c0
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREMCDIVLASTYEAR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 30f5c68d-d4f0-4624-a2cf-db86d3444c21
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 68845ec9-f39c-4068-bcf0-b83af23baaad
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREMCDIVYTD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 56dc551f-94b0-4e17-964a-210b9094af07
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 332b218e-cd86-4545-be00-9b9d0af3b5bc
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREMEMBERBRANCHSUPPORT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ad20cee0-897a-4564-b14d-571b27ce6482
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 83ba7bcc-05f0-43f0-8f0a-39de908d24ff
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREMEMBERUSERTRANSFERCODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4f69e926-a75e-4d62-a719-551929777cb0
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ed438f4b-fc72-4e80-a1cf-c9fede0de38c
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREMICRACCTNUMBER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 62917523-5f8c-4d34-9675-c0998006209a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7743cad8-eca6-4101-97a8-7f05bf578842
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREMINIMUMBALANCE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3c116e86-bdd2-4c12-a6e0-6ccbde00cf1e
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fa1341f7-55e2-49f9-9a40-f85ee99eda84
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREMINIMUMDEPOSIT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7ca00d25-5a5b-4d6b-ac7c-5aa050a35d26
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: afa0dbb5-a862-43b0-82ff-c24bfba8359b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREMINIMUMWITHDRAWAL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b82fca02-14d4-4665-9363-793a89ab19b2
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7d9905b9-51b1-4af3-8a35-419214e1f33d
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREMTDACCRUEDDIVS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1545a71f-5618-4635-9a99-8b410a50e00c
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 212310e8-bf13-4090-b24b-286cdf306d1f
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREMTDEARNEDDIVS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: de348893-4112-48b3-b7a2-f10602d3d7b6
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9f6c52f0-af31-4f3c-824c-2a56996a9d46
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREMTDPAIDDIVS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f984ac50-9c2d-43d2-832d-4778bc28312e
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f555ecdb-da0f-4830-b08e-7d7505a8813c
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREMTDPRIORRATEACCRUAL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9569ba4b-2131-4411-8e46-2f76f536a036
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b25dee0b-d109-4aa5-88ea-ed27ec588eee
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHARENEGATIVEBALANCEDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: dae0aebe-1179-4f5a-bcb3-ce3aead7882f
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2670b6bc-e402-4715-aa90-5957b0d1349a
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHARENICKNAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 366cd3f0-f10f-47e6-986c-a24b0a3ddb44
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 804c0be3-be9a-4e87-b51a-da8fdba7e213
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARENSFLASTYEAR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7ad0816f-a7e5-4b3a-81e0-def28e79095d
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c5604ccc-6915-455f-8dcd-78a393fc950a
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARENSFMONTHTODATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8358413c-689d-4f63-b972-583c3f632ff9
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a19d1d65-a2e4-484f-9085-c4cc3b2f0ce3
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARENSFYTD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6bf23fe7-319b-4cf0-a5a2-6137f4536a2a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 11152461-115d-4df5-a63f-565da64dcd2c
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREOPENDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5b4c3fdb-e6e6-492a-a4ce-5202d6bf6b95
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3abc6252-d8a9-486f-9ea4-475eef241e42
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREORIGINALBALANCE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4e1ae7fe-23a3-472b-9591-d1657fccf8b8
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f0d8d806-cf9a-4421-afb1-be44dd02776e
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREORIGINALDEPOSIT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7bc241e3-af78-4861-bc34-360f88ae4ef6
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fd2c2c22-7dcc-4781-a8ac-ce8da89cec28
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREORIGINALDEPOSITDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: cb821328-2469-4d64-9673-baf58789c7c4
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7c3eb989-e533-47d6-8c6c-cbb71c889d4e
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREOVERDRAFTFEELASTYR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7c2d6dcb-b69f-4e90-b7bf-9e6dfc878406
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b0da23c9-71d8-4a9a-b0d4-943cc28b11d3
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREOVERDRAFTFEEYTD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 08cd6c85-f018-4dcd-8f81-e987318d7851
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f1b29e08-bcde-4655-add2-be301cb343ba
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREOVERDRAFTTOLERANCE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: cef2be04-6b55-4849-894a-7e2d2cb6df9f
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e224cd45-8288-4820-b7b4-d458c130f3d8
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(6,3)
+        description: ""
+        name: SHAREPARAMETERSDIVRATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 58331159-53cf-4ac6-9c7b-54af1d185781
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4cc8079d-47d0-4450-beae-770658e61547
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREPAYEELINE1
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a85e5c79-1fa4-483b-8c13-3c0b370a5637
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9c968b5a-3383-4382-bef3-7cfd69882a63
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREPAYEELINE2
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3c3bfd46-894e-4cd0-9563-15572f64866d
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6f91da7f-775c-4b22-90b7-691a0264c55a
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREPAYEELINE3
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a9cd3965-dc7a-4c0e-96cf-b2f5b119bf5a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6b6a623b-e54d-421f-b68a-8dc3c4371fba
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREPAYEELINE4
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8aa3d33d-59d5-45de-9b68-0128ad0341b2
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b3671576-10c2-4737-8a7d-4dc59e864708
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREPAYEELINE5
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8cc59081-0b34-4a56-b221-d8042c7bbe7e
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ccf9c4f3-62d0-4b94-aba2-4d1bf86123b4
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREPAYEELINE6
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8f05431d-c849-4ade-9ffd-8756098d309a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 22766c25-ed94-49c4-9e73-5a1a436b7f45
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(10,0)
+        description: ""
+        name: SHAREPAYEENAMELOCATOR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f51bebb8-a51d-4b31-803a-52795bc26e49
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3c45e148-a418-4cdc-bf5e-530be2ef3a59
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(10,0)
+        description: ""
+        name: SHAREPAYEENAMETYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 83162f94-49ff-4d1b-8e53-34bf01c32816
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1679f5d0-a098-4e47-8169-f3bc647bfbca
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREPAYEEPHONE1
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e369e8c6-a1dd-4117-9750-640ad8e56ced
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2783f328-9158-4338-8ea6-266376c1200d
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREPAYEEPHONE2
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: caf3f867-86f0-44fd-b6a2-24f3ffea7b30
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c5abc4ca-f301-4fe5-87b5-3ad1e9f06053
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREPAYEEPHONE3
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d83c5439-c29e-41fb-b6bb-7c0089cc1450
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 649d1173-7e29-42f2-afdf-1ff0f02a4477
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPENALTYLASTYEAR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 25526460-6fe2-41c2-86f6-2fc24aed3676
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4ad0dcf1-8cb0-4c2c-80c1-c54fd04f566b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREPENALTYTYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c2b04892-83b4-45c6-89ce-ec80ee846497
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0327a4bb-83f3-4bdf-87a5-5c6e5c63d630
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPENALTYYTD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 05fbe414-bfdb-47b8-a7c4-0d23c680bb9f
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c3e9147e-d6a5-4de2-81ab-c45a4fcd03f6
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(12,6)
+        description: ""
+        name: SHAREPERIODICCAP
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c9f5ab7e-ce22-44eb-a441-104860609d97
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6cbe5301-b020-473b-bb07-91a651ac6cec
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(12,6)
+        description: ""
+        name: SHAREPERIODICSTARTRATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: eb7083a9-d98e-45af-ab50-57cf629a07d3
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4b59a7d7-7026-44fc-86e3-e98fb99fee79
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPREMTHDIVACCRUED1
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f74af3d7-1fae-40c6-8912-eb68c6920342
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: cf2df7ac-3db6-4c35-9826-3a9f850d4468
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPREMTHDIVACCRUED2
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 63cc96ce-f4e1-4d38-b730-bce4672b7e4c
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d6edd614-3e26-4928-add7-bdd12139518d
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPREMTHDIVACCRUED3
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 14ae1dc7-cc43-440a-9015-088a2b0640ba
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 091b72fa-2d6c-4e13-b1ad-042d3f56a8b4
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPREMTHDIVEARNED1
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9eac15e0-84c2-4e75-aebc-4040252ef76a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1cee880b-bd6f-49ca-b4e8-15e4557e2a49
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPREMTHDIVEARNED10
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f09894c7-cbe7-4bbc-9a7e-94ba981e1162
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4c47fb3d-c10c-49e7-bb7c-e8b2fd21df8d
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPREMTHDIVEARNED11
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ed5e3f7e-f1eb-4a52-8bc3-ed82de2ef357
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: eeba154b-a1fb-4fc6-82a3-b8fadd58c971
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPREMTHDIVEARNED12
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 00f3a86e-3727-4d55-92f1-5208e7f1d955
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: aa1ae13d-75f8-4105-bbdb-27b223b6a7b4
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPREMTHDIVEARNED2
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a651f2c0-db3e-45e6-97df-304e72d855f7
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e1b44795-9b25-4804-92fb-9a14f429bfe5
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPREMTHDIVEARNED3
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d0225022-8b67-4cfe-8e97-53c0b7ed3756
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d5e282af-d77f-47ed-b3b6-d91a6a5f08b6
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPREMTHDIVEARNED4
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c2d57d39-93a2-49be-9d42-b1ef9c32fe06
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fe1fad24-b5bf-4da2-b493-b6f2681c75b7
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPREMTHDIVEARNED5
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a8607965-52c2-4369-b844-75f998fc66a7
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4b023036-d495-42a3-a555-9909afb24229
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPREMTHDIVEARNED6
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c90683d6-fe78-4bf4-a132-8beabc442646
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5a4798a5-1c48-404e-a69d-414ca615fccd
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPREMTHDIVEARNED7
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 928046af-4485-4a24-be4b-372a0f2163a7
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 59e2e684-3579-4602-9b1c-7dd243250add
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPREMTHDIVEARNED8
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: dd083ad1-5ab3-4ba2-b7c7-a04c865aded9
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8bc88978-9e6f-400c-858b-2767a342f034
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPREMTHDIVEARNED9
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1943a24b-26fc-48db-9978-8937400d4b85
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e74542f7-8d76-4fcf-a999-07a6b234321e
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPREMTHDIVPAID1
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b90a9ef7-1196-427f-931e-cb61b72a2223
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f8c75573-51af-427b-9773-5fcc2eb42b37
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPREMTHDIVPAID2
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7500bd6b-37a1-4e19-bd06-c2adfc9c393a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4f40f1fe-4694-4df7-af91-73304edf1909
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREPREMTHDIVPAID3
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c0f95df5-f1dc-419e-913f-7995d6e40e9a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1992cf94-e2ee-4f57-8859-f1a08207da56
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(10,0)
+        description: ""
+        name: SHAREPRIMENAMEAGE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8d1a7216-aefa-43ce-b7b8-a3504bf7dca1
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 96cd4713-0202-4b21-9718-6ef06e6dbfa1
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREPRIMENAMEBIRTHDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 88ace533-02cc-455f-9b98-a4513159826e
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f39d8782-f8da-4ec9-8035-0b40637b1b7c
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREPRIMENAMEFIRST
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 936dee3c-e142-417f-9029-0d7e3599e1b8
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8de4fa00-f35f-48ab-8b63-93d0303ab9d0
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREPRIMENAMELAST
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 257ddc6d-790c-4836-8bc9-22abc448abe9
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: cb7045c4-bb9f-416e-9a84-2f19528561b4
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREPRIMENAMELONGNAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8fb0c506-674c-4b0d-b757-d8fb1644955e
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 82006cde-97cc-455a-a184-a589bc35e5d0
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREPRIMENAMEMIDDLE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ce97aa09-7133-4ec5-9e06-090541d76d25
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 13ccd64c-8f3e-497e-b4a7-34a3ee4c0327
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREPRIMENAMESSN
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 56eeefaf-f9d3-4c05-934c-1362b015ab95
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 203108ba-6cf6-4855-a949-309584c126b0
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREPRIMENAMESSNTYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ee07eeb4-5255-4dc1-bdb9-d6414a163e2b
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a0b9d2fc-6498-4db4-94bb-2f7cbe6e84b6
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREPRIMENAMESSNTYPEDESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 92eab6d5-7493-4442-acea-024ae83fa261
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 70994ef5-0911-492a-907c-06b61e7db644
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREPRIMENAMETITLE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 099e5f04-183d-4c89-8a7b-8c6eda00bad0
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 89c86404-6269-4bb0-8643-7663b86c715c
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREPUTITEMSCHD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3910a846-fdf6-4e0b-b23e-ae3524a3943a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d1d05369-692b-445f-aee5-fc2dad1f71dd
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREPUTITEMSCHDTYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ba6f682c-0a38-48e6-a3f6-538d76ef7bf4
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5850450b-9a5d-4ae1-9be1-9ee5ca659eea
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHARERECORDCHANGEDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9ea5df76-e175-4f71-9e51-fdc09750f904
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ffafee6b-7a2e-45ae-bc6b-61a4f7058d7f
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREREFERENCE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2b834339-861c-430f-ae70-403c21d6b3c2
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 196c0e01-796b-4ec6-b080-309500a75c90
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREREGDCHECKCOUNT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9e94bf29-2a4d-4db9-95a7-a1cfddf5f2fa
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6e38fce3-0c62-4c4a-a59f-e86160e640c9
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREREGDCTRSTARTDAY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 58458872-7cc9-4930-94da-dabad342bd63
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a06fc913-f736-4a3b-9574-bcac3cc9661f
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREREGDTRANSFERCOUNT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 766b5f1e-957a-4394-a386-55b2a539d2dc
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c768aa7b-fa1a-481f-9ea4-5437a33138f9
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREREGECOUNT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0bb8c0d7-892a-45a4-9333-5f08e783f3e7
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4c2c37fa-c68f-4303-b856-8a5a1dacad01
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARERENEWSHARETYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 83581191-52e4-4491-b34b-00c950be9133
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f057d264-2060-4043-aa31-59800865eed0
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARERENEWTERMFREQ
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c2fd3064-5150-4564-a081-f2a0e7fbb0a3
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: bbbb8010-1aff-490c-a665-1a992867ab45
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARERENEWTERMPERIOD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0b4e74ca-3fb7-4702-81af-c88fa4916dcc
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3977cf40-7660-49a9-bc60-504bc4637b52
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARESERVICE1
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e1c505fd-a153-4bd1-93cb-e863825e5265
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7a6e1ea3-f8d1-445c-a648-d718e301b58f
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARESERVICE2
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2d6c06cd-ceb9-439c-b177-2bf119aea041
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2073b90a-6ada-4b70-9ae3-b318777d6623
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARESERVICE3
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 00485882-4fcd-4536-9faf-a6e9418400ed
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a63510f9-c9bb-4376-a9bf-b3d66b696f70
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARESERVICE4
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 59cd435d-7c60-4929-bd26-52c7002fcbe2
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a8abc8a9-d964-4ece-a2c2-868a4e21d78a
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARESERVICE5
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6eb4f6f4-6db3-4549-8c9a-84a497f064ed
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1304dd07-47d1-4164-a55a-a19b22a0ae71
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARESERVICE6
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6f9817f8-0829-4499-af90-6e0389fbb1ca
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2f0f673c-2515-429d-939b-3bef72cf3d76
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARESERVICE7
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e6a8607c-63bb-46f6-8160-fb6775d1dfc0
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9f899be1-2336-48f0-a89c-64ecdf7a0be4
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARESERVICE8
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 00112ab4-9f32-46f4-bce3-5e338be489c9
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e2ace51b-f09e-4468-ba05-d4b9d963410c
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHARESTATEMENTDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: bcedab44-da9e-416d-ab3c-be7322766af3
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 91283d46-8563-476a-b171-cfca915d3438
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARESTATEMENTGROUP
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f12fd546-0a30-4f82-857e-472d98b3c122
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1e56165b-052b-4327-aa9a-de53560529e0
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARESTATEMENTMAILCODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 20a1c719-2076-4b03-bd62-7516f1e65366
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 15cd2409-7e12-4c92-8812-847a32439c32
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHARESTATEMENTPREVDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4cc75b01-8d12-4233-8b78-14f778a0df75
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0513c848-b8bf-4fd8-a20e-3428e281c3c2
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARESTATEWITHHOLDINGCODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 591e14af-b9c3-46f0-8234-2764b285a7d7
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9f7a2a15-bcb0-4c75-9109-8bcc54a93362
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHARESTATEWITHHOLDINGLASTQTR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b74c3ae4-69c8-4dcc-935b-1f4b6aa12e98
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ca7ebbe8-7baa-46b3-ab20-4e289ee187d2
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHARESTATEWITHHOLDINGLASTYEAR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 926509f5-3639-43a3-817c-244b78762a7d
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 09fb9f49-97e8-4515-9f0a-24441b1b269b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHARESTATEWITHHOLDINGQTD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6b38fbad-10e3-418f-b4a2-1e51cc45ee76
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: aea9d7f1-ba30-4455-a02d-cc21007e79c1
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHARESTATEWITHHOLDINGYTD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ff836068-a156-4b9d-8398-f1bbe4877555
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 18471be2-a635-4283-95ad-1488fb5d7148
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHARESTATUS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 77502333-32bc-49ac-98f4-9e536c548343
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 889da558-87df-49bb-8a71-5977fe94a206
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARESWEEPBALANCETYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4594a1f9-9826-4737-b51b-51e14267e05a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6dbe6d59-5792-4bf1-b1a6-55a36032e218
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARESWEEPPRIORITY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 91acc549-1208-4f05-a69f-6934dd771212
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fe8dcb7d-6672-4a85-abe2-43e50cbfb9b4
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHARESWEEPTARGETMAXIMUM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 87303308-74df-4a89-a160-451bf2d73ce1
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1da754c9-17e2-479e-9d9a-58600a314301
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHARESWEEPTARGETMINIMUM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: eaed5c4c-4053-4e46-9f76-f1a614673213
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 90f85a93-404c-4cee-9ca8-d37bc6be6991
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARETERMFREQUENCY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d6e38264-5432-43e3-bfd9-2c258d27f20d
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2ff53792-5bd6-408a-8e02-60f3b24742c7
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARETERMMONTHS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4534c20b-d161-4ec4-bf38-ece03102deab
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ec6803ed-d050-4233-b7b0-13c7e61057b0
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARETERMPERIOD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: da2f41e8-2031-4c7f-99b2-32ec20c2f10c
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d5a7c62c-dddd-4f89-9d35-78700872528c
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHARETYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d2864407-7d4c-44bb-88cb-d791419f2134
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 75f56724-6493-4fcd-8f59-007028e1bf23
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHARETYPEDESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 09ce5fe5-adfd-4f5b-bdb5-3330b44fbef3
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 70d2fd2f-e807-46f5-8717-35835e068b17
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHARETYPEFULLDESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4d548c91-f71d-4b56-9164-8e9c793165fa
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ef9a5848-f440-4520-bc02-de5eb2097560
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREUNPAIDFEELASTYEAR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f86b2056-c98c-4d4a-9755-d17890bbb9d9
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b273af83-dc51-42af-abf2-45cd7b8f5cf0
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREUNPAIDFEEYTD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: df1d2052-29a2-490a-a627-ab36ccbb36f8
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a922cb44-a31a-4e8d-88e6-7184b907b009
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREUSERAMOUNT1
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c7c980c7-d323-4c0e-9a32-554a9219de4f
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e178dd07-31e0-48d7-b918-1fe74cf43039
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREUSERAMOUNT2
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: eac339fb-c09a-439b-9364-1866869abc77
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b6736857-f597-4829-9208-d8c2f924ca3a
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREUSERCHAR1
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 811415da-faf7-4e14-a89f-c4667d51fa5a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 186163d4-e267-4a70-a2f4-a131013b3994
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREUSERCHAR2
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2469357b-a707-4429-a7a0-495d4fee7e44
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 19f266b0-4ede-4e79-bb50-1e04e46cb2b2
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREUSERCHAR3
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ad583af6-3da8-47c9-82cf-95cf33cd2546
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5b012867-5e19-4da0-9cd0-1f2565f92c93
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREUSERCHAR4
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c3057fbc-f3d0-4855-b3d0-36a08cd0e644
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7a813bdf-3806-485a-ad4d-9427dd37868b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREUSERDATE1
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 36e1c078-c42f-423b-b9bc-8ced871d7086
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ec178e18-0ce6-428b-9b4b-6723085d3832
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREUSERDATE2
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 60a69b8e-d012-4025-99ac-d6008222cd20
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3c521c31-c9d5-46df-8656-53bb990c91fc
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREWAMDENOMINATOR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d4138ba3-646c-4e09-9d9b-2bfc34bc87a6
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a5e69a85-b17d-4bcb-9cb8-962aa648a59d
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREWAMNUMERATOR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4bb7b035-f6b3-4092-bdea-564019d40781
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e970df8c-9368-43f4-a1b8-ec67dca7fee1
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREWARDENOMINATOR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2dcaa612-7b7e-422e-ab7f-fd516a569ddf
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 821e597a-58d8-4f3b-b133-45f8454d448a
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREWARMDENOMINATOR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ebdd27b9-b32f-4587-b733-1d134318f9c1
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 406e1999-e92b-40df-aa96-be396194b8b8
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREWARMNUMERATOR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 02f1dac1-9738-4207-9cfe-82dc9b5fb1ed
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3508a234-dba4-41c4-8fb3-296af6ea78b7
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE1
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7939ea74-5892-44d3-a13b-8d77bb56056c
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f18c8930-4ad4-4b71-868b-a1eb0044683f
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE10
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b518640a-007e-4d39-b8f4-1f331f3974e5
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c52a3509-f98d-4956-8207-304eba196cc1
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE10DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5f28326f-e9ce-4bc3-85d7-1fb7d2c32508
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c618aea0-1f64-40fc-875e-4f794242dfd5
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE11
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9f98ecca-88bd-41cf-8db3-c4c6891d0e71
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b8807946-a461-4aa5-aa18-c1baf0778e6f
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE11DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4f263b34-43e4-4732-b5ca-0169f306555a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8b4f4c62-04f6-4973-a3dd-75ce387bb3f7
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE12
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: aa1d1c89-8965-4051-bf39-654ce53b25dd
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 777d837b-b1e7-4910-b952-e0ea69e2d0b8
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE12DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1466c0a7-c3c4-4917-9cc8-c210c538f8ed
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b8c94b9a-f807-4208-b248-6fa62c953e6c
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE13
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 595b5806-15d5-4fa2-a016-01b85313dffd
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: cdc0b7f2-d824-4f30-b6b6-e3c521383cfa
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE13DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6072c0e9-7691-43a9-8c98-16ea2465bda7
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 36f1766c-be33-4ebe-b3e2-0cd7c011df48
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE14
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6d265847-ec76-4b8e-83fd-75df2cb9fdf0
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ea5af483-c15e-4e1a-907e-c9e4f6560e1c
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE14DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9b02072b-b1a8-43d8-bb50-96c084baf812
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1baf11db-f0f0-4303-9d17-4ea1c34dc46b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE15
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d9a477c8-a2b6-454b-a367-b02efcbbaf64
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 06875326-5a44-4ff5-9d47-e4e082bf0f04
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE15DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b98c0c21-433a-4b20-9ff5-2e3441afab23
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d34d77ea-3ae2-4655-a556-a5b480d6ae47
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE16
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 947b7031-fa9b-428b-991c-3cb485ba5155
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ecbc601d-4579-469f-ac03-67e1e3059574
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE16DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 73636a5a-84eb-41d6-b49a-23bf5000e2ac
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5c6f1be1-8438-4d67-b443-76807c8b7e87
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE17
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ee2a08fa-7005-4316-a930-6fec979432a7
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7398cdfc-9547-499a-951f-d1d5ae118ca0
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE17DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e3b9caa5-960b-4cc0-9210-b858ba055e15
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 56da5a7b-43ed-4e41-84cb-9148de09f006
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE18
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2b5fb09c-ed8d-435b-a9ac-d5f1e2eb5ee2
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: aca9a907-9e06-44da-8b5c-4d18fd35672c
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE18DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f2ec7d5b-0db1-41d2-bafc-aef99d745b88
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 66220b07-b124-41b4-913f-822ab731a550
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE19
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c69ccec8-6342-4400-ab72-699d29f7f323
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1d408c7a-4f2a-478a-8348-b50b43990375
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE19DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 437a7894-34f5-4630-8c02-a5138a50d616
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 584ae5df-3dc6-4432-88a9-a08c4cd27d5c
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE1DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 00509a7b-201b-4e41-b87b-2f5ced9de336
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1c37dc6d-ef63-4540-859f-816401269fcb
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE2
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0bf906dd-7750-44a6-aabb-75f827791d87
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 95670230-dc42-4df6-a467-690c2653100f
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE20
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: bd9fc444-52ab-4fb7-a58b-24763ac3415d
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2f01979e-3588-4892-b0e9-d61eaf492253
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE20DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 38240565-bf8c-4ff3-88bc-3f597253bab3
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 49f4ef94-2bc2-4710-a90b-979b97172895
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE2DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9e4f9862-4b2c-4b5f-9aa9-eda1d2c744c6
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 74521550-ad79-4dc2-b476-ac7bc71a50c5
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE3
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 42871c2f-445a-44a1-99bc-1aee3469aae6
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 929db7a8-c056-4f9c-8f66-3a410b9d7fb9
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE3DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1fae7317-634e-44b1-a507-604dffd1e08e
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 75917806-dcc5-46be-9610-7f9ac69856c0
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE4
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 073173c7-19a4-491f-9b5d-32ec70a54d78
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: dcaa17a4-9955-444f-970f-77c6bb436621
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE4DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: be263d02-c4ed-4062-8f60-727418f53703
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6c03811b-bd97-4cc0-8335-c7bdbdb7686c
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE5
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1081c453-fa25-4869-9cd5-6ecb508b0104
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ef7280ca-ad36-47c0-ad22-ea1036a0af84
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE5DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0d455a31-55a1-40f8-911f-618f586511c1
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 224c7593-0bad-4947-af1c-9094be6674e5
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE6
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f65a2e6c-0c7b-48c7-bacf-40d542678f0c
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3d2a0c32-0528-400a-b940-756f29bd163d
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE6DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5775840f-49eb-4b27-aadf-7027eddb265e
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d06afcd1-ccae-440f-8f9e-c7213d7dd513
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE7
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2cfef64c-388e-409f-9f9d-7fe1dc2a56e9
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 95bcec8f-6a61-46dd-8315-6c3db78118f6
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE7DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9cf18aac-0ce2-4c4c-93ab-594d690219f4
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a123f695-2398-4180-adbe-aca711cf859b
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE8
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 06c746ac-2dd2-4e8d-a154-88da5d1f536e
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 41916cd4-de20-498a-b220-55d26be9f4fc
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE8DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f661d890-4a7f-48b3-a3ab-964c47f771e3
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c5fb9fed-6343-4b44-9423-d33ee1e29337
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWARNINGCODE9
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f336dac7-b4a1-40a8-a2aa-bb6542f38be0
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4c39c3b8-21b1-4a1c-bb8e-0294ee93ada4
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SHAREWARNINGCODE9DESCRIPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 16cba55c-f67d-4c00-9a29-f5a686bd8220
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 17a3035b-37ec-4d71-a7da-42944be85f66
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION1
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 666da7c9-4c0a-4009-af59-db4c0fd6cc45
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d1196a97-48b3-4119-b71d-3e74993fbee0
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION10
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 837d6190-001f-45a7-be73-a3a07afa6279
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 16264859-1eaa-4a8c-890c-4388dc67551f
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION11
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ea1157bd-33d5-4f70-8df4-9b75e0e4d927
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d0864f70-54e5-465e-875f-189d460518e9
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION12
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1320df8b-7d18-44a8-819a-f4d950658200
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f9a8cbe3-a043-4388-8b16-7e51a8c677c2
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION13
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 31a5c857-64f8-4652-b966-0c932eab6d90
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1f453dfa-e820-420b-b052-8289392a8bfa
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION14
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: cfb8f041-e615-45d2-a697-82f3523aa7f2
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c65f8ac8-165d-444d-bed8-6d1169940129
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION15
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a938eca8-a516-4d9f-83bb-9f734cd3ddbc
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 79b9cf79-2b26-41c1-ba47-b93e6cf7c792
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION16
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 324e97f7-2e36-496c-b3a1-15e44a765f93
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f4072ff1-2876-484c-92ce-60011e9a29e2
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION17
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 09e7a4c6-2fc8-4299-bac4-3d85abfa51a0
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a228055d-1d4d-4c9a-a11a-da30bff436f7
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION18
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: eadb9529-c4a1-4317-8c6e-ce4db524577b
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3abdeb3b-7048-4184-8e69-2defb67744c4
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION19
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b205f3cb-a34d-419c-9aa6-4f8a68d1a03d
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a16bcb11-0ebd-4388-8a33-83845903d634
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION2
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e560ac2b-d850-4159-82d2-d6634b00c181
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d471764a-8947-42bc-8916-06f114a20268
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION20
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 343103c7-8cf4-4ddf-9480-0b42d0f548a3
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d2b8cacb-9b7e-434a-8b20-fac9f06ce5f6
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION3
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 70956f8c-ffe2-4c29-8ee7-2f1948dc09bc
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 12989385-26a5-46ea-b530-25d4ad79496e
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION4
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7e028468-0059-4462-9c87-74965ffd7c98
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ec6faf2b-bbc7-4140-827d-58d8753b5c4d
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION5
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e29825f2-a287-474b-9e8c-e4e89e50bb2a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 883d833c-8969-4d6b-a3b3-eefea3f5cbb0
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION6
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9d8b7562-fac2-4faf-ba5e-e3f2bc41b46b
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7de60b17-75d3-40dd-9d7a-92e43efa4e04
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION7
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6b4e689e-95df-43c1-b994-bd637b0d7a40
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 325a7e2b-81fe-4a96-ae24-9aa811f1fca1
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION8
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ddb74536-bf6e-4967-a02e-29824b175b0c
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 127759c6-28d9-4a06-b1b5-d5a99bcd733d
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: SHAREWARNINGEXPIRATION9
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6cbab8e3-e427-4a73-899a-6015bf861a59
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ad1b4d99-0daf-4053-83a6-d0e847a00332
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(38,11)
+        description: ""
+        name: SHAREWARNUMERATOR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 460b44b6-9ad6-4f06-9f72-9b4fd33e14e7
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 63afb881-0d0e-4b7c-9f80-a7c3b9fda2ca
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWITHDRAWALCOUNT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ce888453-ef10-4341-b826-c5a611c5a6e8
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8914b273-74ea-4553-b519-88804356e134
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWITHDRAWALFEECOUNT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 68a691d6-743b-4ec1-8452-be5affa07511
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 67028c2b-3bfa-491d-b85c-1955ea4c2fa3
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWITHDRAWALFEETYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 92a7930f-c071-4b5c-9da7-fd7cdb17e433
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c6f231c8-8179-468c-a07e-58ca9f60dbe6
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWITHDRAWALLIMIT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ff216b0f-4267-4c4c-93ad-62fd10cb5209
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 974f36f2-61f2-4907-b938-20c51b306a40
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREWITHDRAWNFROMOPEN
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8515a15e-88f6-4647-8fa8-ba0928a45623
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c0f9eb5e-abf5-4556-81e7-cb0bf5f40e0a
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREWITHHOLDINGCODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d0a34938-211a-4ac2-b369-52c00b0331d4
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c35ee2d5-c4ee-4e95-b3f1-8667818818dc
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREWITHHOLDINGLASTYEAR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7c058c30-349e-4a57-957e-d8135adc3388
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 09d44d2a-6872-462a-8dac-b33fbb3031de
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(19,4)
+        description: ""
+        name: SHAREWITHHOLDINGYTD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 308bc35a-e9a4-4723-9042-619ce8306f4a
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8375eb4b-06ae-4194-8ba6-04b2fae2ecec
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREXFRLASTYEAR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8233d062-3020-45a6-b59c-39df6fc7fc37
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 22c7fa01-4065-4eef-b1ec-303921b3293d
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREXFRMONTHTODATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 772c7915-aa30-4137-90d7-7e7c3727ac62
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: add37f4b-5c69-437a-8c93-69b4d89faac8
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(5,0)
+        description: ""
+        name: SHAREXFRYTD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9de74973-50c3-46f2-b474-b7edaf9db851
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4dab2f51-6502-4fda-8776-5f4ea3ccdfb4
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: TWELVEMONTHSPRIORDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fdb97063-556d-4535-8fd7-b27135b94ba6
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 714e1a72-10ec-4741-a107-cdc80bcafae5
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: YEARBEGINDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 33741903-dc15-4f53-bd3a-9c92ee650dd5
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 24f7c4b0-157d-4761-a014-495144d4eaef
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: YEARENDDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3dac96b2-9271-4439-b91b-0cfc7ab4196e
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 706e000a-751a-4699-8fc4-5f753f3f8a47
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: NUMBER(10,0)
+        description: ""
+        name: YEARNUM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5d87435e-625b-40a4-8141-2ea4e15d2b91
+                stepCounter: 3dbed56a-13bb-4b6a-89a8-185af0851c9d
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8363bc8d-227a-4948-9024-bdc3db26c213
+          stepCounter: 6d57f4ba-4e61-46d0-8cc6-690b6da76a15
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: EFFECTIVE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: CONCAT(YEAR(PROCESSDATESHORT),'-',LPAD(MONTH(PROCESSDATESHORT),2,0))
+        systemColumnType: None
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: STG_ARCUSHAREDETAILED_PREP
+        join:
+          joinCondition: FROM {{ ref('WORK', 'STG_ARCUSHAREDETAILED_PREP') }} "STG_ARCUSHAREDETAILED_PREP"
+        name: ARCUSHAREDETAILED_ALLTIME_EFFDATE
+        noLinkRefs: []
+  name: ARCUSHAREDETAILED_ALLTIME_EFFDATE
+  overrideSQL: false
+  schema: ""
+  sqlType: View
+  type: sql
+  version: 1
+type: Node

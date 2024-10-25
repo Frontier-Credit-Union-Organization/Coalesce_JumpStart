@@ -1,0 +1,227 @@
+fileVersion: 1
+id: 46e20deb-8a03-477b-aa75-20385eab6e69
+name: STG_KEY_DATES_ADD_NO_HYPHEN_DATE
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: A CALENDER KEY BUILT TO GIVE KEY DATE PARAMETERS. I've also added a Date with no hyphens field for connecting to tables that only have ProcessDate.
+  isMultisource: false
+  locationName: WORK
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 70fe2c83-e372-4028-b27f-8c3afb977d1d
+          stepCounter: 46e20deb-8a03-477b-aa75-20385eab6e69
+        config: {}
+        dataType: DATE
+        description: ""
+        name: Date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0bea01bd-b1a4-4df6-a9a3-5e4c5e92631c
+                stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0779f511-821b-4434-a4c9-40c762c5996d
+          stepCounter: 46e20deb-8a03-477b-aa75-20385eab6e69
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: Day of Week
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2dba24af-e074-4658-9166-a2cc2ba3e251
+                stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2d1a2bd3-b9a9-40b4-a8d0-93f1ee5d6291
+          stepCounter: 46e20deb-8a03-477b-aa75-20385eab6e69
+        config: {}
+        dataType: DATE
+        description: ""
+        name: End of Month
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e5a1d269-b326-4181-b0f6-2735b9044730
+                stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b9cfddb7-784f-4031-861e-e424cc8cebc1
+          stepCounter: 46e20deb-8a03-477b-aa75-20385eab6e69
+        config: {}
+        dataType: BOOLEAN
+        description: ""
+        name: EOM T/F
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f1c439d5-6a87-4f38-ba1e-b8acdc06fca6
+                stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 492ab1ed-83f1-47d1-bc3a-a05c246c24ec
+          stepCounter: 46e20deb-8a03-477b-aa75-20385eab6e69
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: Month
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 99f27598-6a2e-466a-99a9-efe77a6c82c8
+                stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d6925f60-b490-41a4-9a68-3bbf5b0bd086
+          stepCounter: 46e20deb-8a03-477b-aa75-20385eab6e69
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: Day
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0ba68a9a-400c-43c7-b44f-0a7c9b90c227
+                stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 81c9cdac-c01b-49c2-bb42-bc035515baae
+          stepCounter: 46e20deb-8a03-477b-aa75-20385eab6e69
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: Year
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5007573f-150e-47bf-9207-14cb85815e05
+                stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7af02802-dc9c-4d71-87a3-11058c949d3d
+          stepCounter: 46e20deb-8a03-477b-aa75-20385eab6e69
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: Day of Year
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e0c8fd1b-6408-4ff8-bd0b-760ca36524b5
+                stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7828e448-26a5-4f65-ba10-65c6a37c7ea0
+          stepCounter: 46e20deb-8a03-477b-aa75-20385eab6e69
+        config: {}
+        dataType: BOOLEAN
+        description: ""
+        name: EOY T/F
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: cdc271fd-5672-4940-be1c-aec0e893b97a
+                stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 63f63179-506c-4542-b712-771efdd37610
+          stepCounter: 46e20deb-8a03-477b-aa75-20385eab6e69
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: SOW T/F
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f503f150-e8bf-4d7a-b3e4-3823a83042dc
+                stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: bc4e6521-ebeb-4447-a139-7123d1fa33fc
+          stepCounter: 46e20deb-8a03-477b-aa75-20385eab6e69
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: EOW T/F
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d0782895-d434-4fd5-9ccb-bc03c1475ee3
+                stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1ed2fcb6-069f-4f2e-8bb2-235e0e1e0f94
+          stepCounter: 46e20deb-8a03-477b-aa75-20385eab6e69
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: Week of Year
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2d3022b9-81a5-4074-9607-1a24b2a91191
+                stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 306e7e2f-6b53-4272-a724-38c5fb9581c2
+          stepCounter: 46e20deb-8a03-477b-aa75-20385eab6e69
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: Gives a version of the date column that doesn't have hyphens. This allows it to connect to ARCU tables that don't have ProcessDateShort. The ProcessDate field is YYYYMM with no hyphens.
+        keyColumnType: None
+        name: Date_No_Hyphens
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: REPLACE("Date",'-','')
+        systemColumnType: None
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: COMMON
+            nodeName: KEY_DATES
+        join:
+          joinCondition: FROM {{ ref('COMMON', 'KEY_DATES') }} "KEY_DATES"
+        name: STG_KEY_DATES_ADD_NO_HYPHEN_DATE
+        noLinkRefs: []
+  name: STG_KEY_DATES_ADD_NO_HYPHEN_DATE
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node

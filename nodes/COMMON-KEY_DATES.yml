@@ -1,0 +1,248 @@
+fileVersion: 1
+id: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+name: KEY_DATES
+operation:
+  database: ""
+  dataset: ""
+  deployEnabled: true
+  description: A CALENDER KEY BUILT TO GIVE KEY DATE PARAMETERS
+  locationName: COMMON
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0bea01bd-b1a4-4df6-a9a3-5e4c5e92631c
+          stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: Date
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2dba24af-e074-4658-9166-a2cc2ba3e251
+          stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Day of Week
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e5a1d269-b326-4181-b0f6-2735b9044730
+          stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: End of Month
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f1c439d5-6a87-4f38-ba1e-b8acdc06fca6
+          stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        name: EOM T/F
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 99f27598-6a2e-466a-99a9-efe77a6c82c8
+          stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Month
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0ba68a9a-400c-43c7-b44f-0a7c9b90c227
+          stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Day
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5007573f-150e-47bf-9207-14cb85815e05
+          stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Year
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e0c8fd1b-6408-4ff8-bd0b-760ca36524b5
+          stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Day of Year
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cdc271fd-5672-4940-be1c-aec0e893b97a
+          stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        name: EOY T/F
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f503f150-e8bf-4d7a-b3e4-3823a83042dc
+          stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: SOW T/F
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d0782895-d434-4fd5-9ccb-bc03c1475ee3
+          stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: EOW T/F
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2d3022b9-81a5-4074-9607-1a24b2a91191
+          stepCounter: 2c2c819c-79af-4b02-8d54-d7873f5ab853
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: Week of Year
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+    join:
+      joinCondition: FROM {{ ref('COMMON', 'KEY_DATES') }}
+  name: KEY_DATES
+  schema: ""
+  sqlType: Source
+  table: KEY_DATES
+  type: sourceInput
+  version: 1
+type: Node
