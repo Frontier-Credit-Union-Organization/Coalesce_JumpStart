@@ -3,5 +3,6 @@ fileVersion: 1
 locations:
   - COMMON
   - CTE
+  - DW_BATCH_FILES
   - MATILLION_SRC
   - WORK
