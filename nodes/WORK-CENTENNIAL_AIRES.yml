@@ -58,7 +58,7 @@ operation:
           - columnReferences:
               - columnCounter: dee3f4db-0eea-4152-9e5a-303978e4b2b2
                 stepCounter: 3651746e-5512-43b5-b977-451bba20b086
-            transform: ""
+            transform: REPLACE(MEMBER_NAME,'"','')
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 0ff68812-2fef-4cf1-a3eb-2e0923f75441
