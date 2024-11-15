@@ -13,6 +13,9 @@ mappingDefinitions:
   MATILLION_SRC:
     database: DW
     schema: SQL_SERVER_PREP
+  PROD_WH_MORTGAGES:
+    database: PROD_WH
+    schema: LN_MORTGAGE
   WORK:
     database: COALESCE_WH_QA
     schema: COALESCE_WH_QA_SCHEMA

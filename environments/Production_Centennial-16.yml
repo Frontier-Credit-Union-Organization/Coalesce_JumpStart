@@ -7,9 +7,15 @@ mappingDefinitions:
   CTE:
     database: COALESCE_CTE
     schema: COALESCE_CTE_DEV
+  DW_BATCH_FILES:
+    database: DW
+    schema: BATCH_FILES
   MATILLION_SRC:
     database: DW
     schema: SQL_SERVER_PREP
+  PROD_WH_MORTGAGES:
+    database: PROD_WH
+    schema: LN_MORTGAGE
   WORK:
     database: COALESCE_WH_DEV
     schema: COALESCE_WH_DEV_SCHEMA
