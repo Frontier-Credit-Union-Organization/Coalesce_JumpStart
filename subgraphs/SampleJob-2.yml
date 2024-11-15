@@ -1,7 +1,5 @@
 fileVersion: 1
 id: "2"
 name: Sample Job
-steps:
-  - 03cca109-e00c-4338-b048-daa66569bc70
-  - 537f1a7c-f972-4c93-9004-874df39cfbbb
+steps: []
 type: Subgraph
