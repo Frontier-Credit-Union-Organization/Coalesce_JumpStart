@@ -1,0 +1,17 @@
+fileVersion: 1
+id: "16"
+mappingDefinitions:
+  COMMON:
+    database: PROD_COMMON
+    schema: KEYS
+  CTE:
+    database: COALESCE_CTE
+    schema: COALESCE_CTE_DEV
+  MATILLION_SRC:
+    database: DW
+    schema: SQL_SERVER_PREP
+  WORK:
+    database: COALESCE_WH_DEV
+    schema: COALESCE_WH_DEV_SCHEMA
+name: Production_Centennial
+type: Environment
