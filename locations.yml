@@ -5,4 +5,5 @@ locations:
   - CTE
   - DW_BATCH_FILES
   - MATILLION_SRC
+  - PROD_WH_MORTGAGES
   - WORK
